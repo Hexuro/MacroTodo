@@ -5,7 +5,7 @@ TodoList::TodoList(const std::string& filename) : filename(filename) {
 }
 
 void TodoList::LoadTodos() {
-    std::cout << "Loading todos from file: " << filename << std::endl;
+    std::cout << "Loading todos from file: " << filename << "\n";
     std::ifstream file(filename);
     if (file.is_open()) {
         Todo todo;
@@ -15,7 +15,7 @@ void TodoList::LoadTodos() {
         file.close();
     }
     else {
-        std::cout << "Failed to open file" << std::endl;
+        std::cout << "Failed to open file. If the file not exists it will be created and you should ignore this\n";
     }
 }
 
@@ -23,7 +23,7 @@ void TodoList::SaveTodos() {
     std::ofstream file(filename);
     if (file.is_open()) {
         for (const auto& todo : todos) {
-            file << todo.title << " " << todo.description << " " << todo.isDone << std::endl;
+            file << todo.title << " " << todo.description << " " << todo.isDone << "\n";
         }
         file.close();
     }
@@ -51,6 +51,6 @@ void TodoList::CheckTodo(int index) {
 
 void TodoList::ListTodos() {
     for (size_t i = 0; i < todos.size(); ++i) {
-        std::cout << "[" << (todos[i].isDone ? "x" : " ") << "] " << todos[i].title << ": " << todos[i].description << std::endl;
+        std::cout << "[" << (todos[i].isDone ? "x" : " ") << "] " << todos[i].title << ": " << todos[i].description << "\n";
     }
 }
