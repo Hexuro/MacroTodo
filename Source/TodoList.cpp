@@ -5,7 +5,6 @@ TodoList::TodoList(const std::string& filename) : filename(filename) {
 }
 
 void TodoList::LoadTodos() {
-    std::cout << "Loading todos from file: " << filename << "\n";
     std::ifstream file(filename);
     if (file.is_open()) {
         Todo todo;
@@ -13,9 +12,6 @@ void TodoList::LoadTodos() {
             todos.push_back(todo);
         }
         file.close();
-    }
-    else {
-        std::cout << "Failed to open file. If the file not exists it will be created and you should ignore this\n";
     }
 }
 
