@@ -32,7 +32,9 @@ jobs:
 
         # Generate project
       - name: Generate project files
-        run: cd Scripts && GenVisualStudio2022.bat
+        run: |
+              cd Scripts
+              GenVisualStudio2022.bat
 
       # Setting up msbuild
       - name: Add msbuild to PATH
