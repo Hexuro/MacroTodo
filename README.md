@@ -15,7 +15,7 @@ There are as always prebuild binaries for windows on the releases page. See how 
 Linux is currently not officially supported. See how to build it yourself in the [Build Guide](#build-guide) <br>
 
 **MacOS** <br>
-MacOS is currently officially not officially supported.
+MacOS is currently not officially supported.
 
 ## Usage
 A simple guide on using this to-do app:
@@ -38,7 +38,6 @@ A simple guide on using this to-do app:
 
 ## Build Guide
 First clone the repository. Then follow the steps below for your platform.
-
 **Windows** <br>
 ```console
 > cd Scripts && GenVisualStudio2022.bat # Choose 2019 for VS2019
@@ -46,8 +45,8 @@ First clone the repository. Then follow the steps below for your platform.
 Open Todo-App.sln and build the project.
 
 **Linux** <br>
-Requirements: Premake installed and added to path. <br>
+*Requirements:* Premake installed and added to path, make installed and added to path. <br>
 ```console
-$ premake5 gmake # Can also use gmake2
+$ premake5 gmake2 # Can also use regular gmake
 $ make
 ```
