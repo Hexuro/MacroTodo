@@ -1,4 +1,4 @@
-workspace "Todo-App"
+workspace "MacroTodo"
     architecture "x86_64"
 
     configurations
@@ -9,7 +9,7 @@ workspace "Todo-App"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-project "Todo-App"
+project "MacroTodo"
     location "Source"
     kind "ConsoleApp"
     language "C++"
