@@ -1,5 +1,5 @@
-# Todo-App
-This to-do app is a small project made by me (**@ViktorPopp**) and is currently only supporting the command line but will eventually be supporting GUI applications.
+# MacroTodo
+This to-do app is a small project made by **@ViktorPopp** and is currently only supporting the command line but will eventually be supporting GUI applications. Now why another To-do app? Well this to-do app is made to be performant and integrated well into a command line workflow. It is also **really simple to embed into other applications.**
 
 ## Features
 * ➕ Add todo's
@@ -9,10 +9,13 @@ This to-do app is a small project made by me (**@ViktorPopp**) and is currently 
 
 ## Installation
 **Windows** <br>
-There a as always prebuild binaries for windows on the releases page. <br>
+There are as always prebuild binaries for windows on the releases page. See how to build it yourself in the [Build Guide](#build-guide) <br>
 
 **Linux** <br>
-Linux is currently not supported. See how to build it yourself in the [Build Guide](#build-guide) <br>
+Linux is currently not officially supported. See how to build it yourself in the [Build Guide](#build-guide) <br>
+
+**MacOS** <br>
+MacOS is currently officially not officially supported.
 
 ## Usage
 A simple guide on using this to-do app:
@@ -34,6 +37,8 @@ A simple guide on using this to-do app:
 ```
 
 ## Build Guide
+First clone the repository. Then follow the steps below for your platform.
+
 **Windows** <br>
 ```console
 > cd Scripts && GenVisualStudio2022.bat # Choose 2019 for VS2019
