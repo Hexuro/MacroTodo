@@ -34,7 +34,7 @@ jobs:
       - name: Generate project files
         run: |
               cd Scripts
-              GenVisualStudio2022.bat
+              cmd.exe /c "GenVisualStudio2022.bat"
 
       # Setting up msbuild
       - name: Add msbuild to PATH
