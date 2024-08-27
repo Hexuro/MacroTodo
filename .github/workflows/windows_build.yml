@@ -42,4 +42,5 @@ jobs:
 
         # Build project
       - name: Build app for release
-        run: msbuild Source\MacroTodo.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
+        run: msbuild Source\MacroTodo.vcxproj -t:rebuild -verbosity:diag -property:Configuration=Release -property:Platform=x64
+
