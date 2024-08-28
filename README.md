@@ -37,7 +37,7 @@ A simple guide on using this to-do app:
 ```
 
 ## Build Guide
-First clone the repository. Then follow the steps below for your platform.
+First clone the repository. Then follow the steps below for your platform. <br>
 **Windows** <br>
 ```console
 > cd Scripts && GenVisualStudio2022.bat # Choose 2019 for VS2019
