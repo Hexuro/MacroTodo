@@ -37,7 +37,7 @@ A simple guide on using this to-do app:
 ```
 
 ## Build Guide
-First clone the repository. Then follow the steps below for your platform.
+First clone the repository. Then follow the steps below for your platform. <br>
 **Windows** <br>
 ```console
 > cd Scripts && GenVisualStudio2022.bat # Choose 2019 for VS2019
@@ -45,6 +45,7 @@ First clone the repository. Then follow the steps below for your platform.
 Open Todo-App.sln and build the project.
 
 **Linux** <br>
+**THIS DOES NOT WORK! [Wont't build on Linux (#1)](https://github.com/Hexuro/MacroTodo/issues/1) Any help is very appreciated** <br>
 *Requirements:* Premake installed and added to path, make installed and added to path. <br>
 ```console
 $ premake5 gmake2 # Can also use regular gmake
