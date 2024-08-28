@@ -2,7 +2,7 @@
 #include <fstream>
 #include <vector>
 #include <list>
-#include <process.h>
+#include <cstdlib>
 
 #include "TodoList.h"
 #include "Todo.h"
@@ -15,7 +15,7 @@ bool shouldClose = false;
 int main(int argc, char* argv[]) {
 	/* Initialize */
 	if (argc != 2) {
-		cout << "please enter a filename";
+		cout << "please enter a filename\n";
 		return 0;
 	}
 

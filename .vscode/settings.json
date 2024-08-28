@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/mnt/d/dev/Projekter/bin/Debug-linux-x86_64/MacroTodo",
+            "binaryPath": "/mnt/d/dev/Projekter/bin/Debug-linux-x86_64/MacroTodo/MacroTodo",
+            "binaryArgs": []
+        }
+    ]
+}

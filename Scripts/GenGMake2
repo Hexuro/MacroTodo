@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ..
+./vendor/premake/premake5-linux gmake2

@@ -6,6 +6,7 @@
 #include <string>
 #include <cstdlib>
 #include <sstream>
+#include <limits>
 
 std::string GetStringFromCin() {
     while (true) {
