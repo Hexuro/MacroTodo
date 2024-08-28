@@ -34,7 +34,7 @@ jobs:
       - name: Generate project files
         run: |
               cd Scripts
-              chmod +x ./GenGMake2
+              chmod a+x ./GenGMake2
               ./GenGMake2
 
       # Setting up msbuild
