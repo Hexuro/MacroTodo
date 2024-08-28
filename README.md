@@ -9,10 +9,10 @@ This to-do app is a small project made by **@ViktorPopp** and is currently only 
 
 ## Installation
 **Windows** <br>
-There are as always prebuild binaries for windows on the releases page. See how to build it yourself in the [Build Guide](#build-guide) <br>
+There are as always prebuild binaries for Windows on the releases page. See how to build it yourself in the [Build Guide](#build-guide) <br>
 
 **Linux** <br>
-Linux is currently not officially supported. See how to build it yourself in the [Build Guide](#build-guide) <br>
+There are as always prebuild binaries for Linux on the releases page. See how to build it yourself in the [Build Guide](#build-guide) <br>
 
 **MacOS** <br>
 MacOS is currently not officially supported.
