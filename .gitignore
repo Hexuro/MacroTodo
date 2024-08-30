@@ -11,5 +11,8 @@ obj/
 *.vcxproj.user
 .vs/
 
+# Visual Studio Code
+.vscode/
+
 # Gmake
 Makefile
