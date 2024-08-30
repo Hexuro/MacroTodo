@@ -46,6 +46,6 @@ Open Todo-App.sln and build the project.
 
 **Linux** <br>
 ```console
-$ premake5 gmake2 # Can also use regular gmake
+$ cd Scripts && GenGMake2
 $ make
 ```
