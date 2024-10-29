@@ -13,13 +13,13 @@ using namespace std;
 bool shouldClose = false;
 
 int main(int argc, char* argv[]) {
-	/* Initialize */
-	if (argc != 2) {
-		cout << "please enter a filename\n";
-		return 0;
-	}
+    /* Initialize */
+    if (argc != 2) {
+        cout << "please enter a filename\n";
+        return 0;
+    }
 
-	TodoList todoList(argv[1]);
+    TodoList todoList(argv[1]);
 
     /* App loop */
     while (!shouldClose) {
@@ -41,17 +41,17 @@ int main(int argc, char* argv[]) {
             int indexNumber;
             std::cout << "Enter an index number: ";
             indexNumber = GetIntFromCin();
-			todoList.RemoveTodo(indexNumber);
+            todoList.RemoveTodo(indexNumber);
         }
 
         elif (inputstring == "check") {
             int indexNumber;
-			std::cout << "Enter an index number: ";
-			indexNumber = GetIntFromCin();
-			todoList.CheckTodo(indexNumber);
-		}
+            std::cout << "Enter an index number: ";
+            indexNumber = GetIntFromCin();
+            todoList.CheckTodo(indexNumber);
+        }
 
-        elif (inputstring == "list") {
+        elif (inputstring == "list" || inputstring == "ls") {
             todoList.ListTodos();
         }
 
@@ -62,5 +62,5 @@ int main(int argc, char* argv[]) {
     }
 
 
-	/* Terminate */
+    /* Terminate */
 }
